@@ -21,8 +21,8 @@
   }
 
   .main{
-    height: 130vh;
-    width: 98vw;
+    height: 170vh;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,4 +135,34 @@
 .bcard__text{
   color: grey;
   font-size: 1.08rem;
+}
+
+/* footer sytles */
+
+.bcard__footer{
+  height: 6.5rem;
+  background-color: #1a1b21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.bcard__footer-icon{
+  background-color: #918e9b;
+  padding: 0.2em;
+  font-size: 2.7rem;
+  margin-right: 2.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bcard__footer-icon:last-of-type{
+  margin-right: 0;
+}
+
+@media (max-height:750px){
+  .main{
+    height: auto;
+  }
 }
