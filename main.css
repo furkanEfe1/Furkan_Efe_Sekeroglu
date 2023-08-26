@@ -21,7 +21,7 @@
   }
 
   .main{
-    height: 100vh;
+    height: 130vh;
     width: 98vw;
     display: flex;
     flex-direction: column;
@@ -36,4 +36,10 @@
 
   /*Header Styles*/
 
-  .bcard__profile-img{}
+  .bcard__profile-img{
+    width: 31.7rem;
+    height: 31.7rem;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    object-position: top right;
+  }
